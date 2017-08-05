@@ -26,6 +26,7 @@ public class DataController {
 
     @GetMapping
     public List<Data> getDataList() {
-        return this.dataRepository.findAll();
+//        return this.dataRepository.findAll();
+        return Arrays.asList(new Data(1L, "ebiahr"));
     }
 }
