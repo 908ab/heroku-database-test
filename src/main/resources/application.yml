@@ -1,9 +1,6 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-#    url: jdbc:postgres://hqpsupdlxmpeik:de1cbea026c9d8c210aa20cae7151afc9b4311d88cd2dac5887b00c2b5b2322e@ec2-54-204-32-145.compute-1.amazonaws.com:5432/de0ka7j5ol2aga
-#    username: hqpsupdlxmpeik
-#    password: de1cbea026c9d8c210aa20cae7151afc9b4311d88cd2dac5887b00c2b5b2322e
   jpa:
     hibernate:
       ddl-auto: update
