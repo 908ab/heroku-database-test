@@ -13,6 +13,7 @@ import javax.persistence.*;
 public class Data {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column
     Long id;
 
     @Column
